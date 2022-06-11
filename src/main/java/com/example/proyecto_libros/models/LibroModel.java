@@ -17,7 +17,7 @@ public class LibroModel {
     @Column(unique = true, nullable = false)
     private int id;
 
-    @Column(name = "Nombre",length = 60, nullable = false)
+    @Column(name = "Nombre",length = 50, nullable = false)
     private String nombreLibro;
 
     @Column(name = "Paginas", nullable = false)
